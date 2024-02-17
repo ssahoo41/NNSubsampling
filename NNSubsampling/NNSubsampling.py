@@ -285,7 +285,7 @@ def subsampling(data, list_desc = [], standard_scale = True, cutoff_sig = 0.05, 
                                                cutoff_sig = cutoff_sig, rate = rate, method = method, \
                                                verbose = verbose)
     sampling_result = [data[i] for i in overall_keep_list]
-    return sampling_result    
+    return sampling_result, overall_keep_list
 
 
 
